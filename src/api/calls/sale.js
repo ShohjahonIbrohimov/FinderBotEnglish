@@ -10,21 +10,21 @@ const createSaleAccountEN = (data) => {
 
 const getSaleAccountsEN = (data) => {
   return axios({
-    url: "en/telegram/fileproduct/all",
+    url: "/telegram/fileproduct/all",
     method: "GET",
   });
 };
 
 const deleteSaleAccountEN = (id) => {
   return axios({
-    url: `en/telegram/fileproduct/delete/${id}`,
+    url: `/telegram/fileproduct/delete/${id}`,
     method: "DELETE",
   });
 };
 
 const createSaleAccountRU = (data) => {
   return axios({
-    url: "ru/telegram/fileproduct/create",
+    url: "en/telegram/fileproduct/create",
     method: "POST",
     data,
   });
@@ -32,14 +32,14 @@ const createSaleAccountRU = (data) => {
 
 const getSaleAccountsRU = (data) => {
   return axios({
-    url: "ru/telegram/fileproduct/all",
+    url: "/telegram/fileproduct/all",
     method: "GET",
   });
 };
 
 const deleteSaleAccountRU = (id) => {
   return axios({
-    url: `ru/telegram/fileproduct/delete/${id}`,
+    url: `/telegram/fileproduct/delete/${id}`,
     method: "DELETE",
   });
 };

@@ -10,21 +10,21 @@ const createProductEN = (data) => {
 
 const getProductsEN = (data) => {
   return axios({
-    url: "en/telegram/product/all",
+    url: "/telegram/product/all",
     method: "GET",
   });
 };
 
 const deleteProductEN = (id) => {
   return axios({
-    url: `en/telegram/product/delete/${id}`,
+    url: `/telegram/product/delete/${id}`,
     method: "DELETE",
   });
 };
 
 const createProductRU = (data) => {
   return axios({
-    url: "ru/telegram/product/create",
+    url: "en/telegram/product/create",
     method: "POST",
     data,
   });
@@ -32,14 +32,14 @@ const createProductRU = (data) => {
 
 const getProductsRU = (data) => {
   return axios({
-    url: "ru/telegram/product/all",
+    url: "/telegram/product/all",
     method: "GET",
   });
 };
 
 const deleteProductRU = (id) => {
   return axios({
-    url: `ru/telegram/product/delete/${id}`,
+    url: `/telegram/product/delete/${id}`,
     method: "DELETE",
   });
 };
