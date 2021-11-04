@@ -1,0 +1,195 @@
+.tablist_custom {
+  border-bottom: 1px solid #3e465e;
+  padding: 36px 0;
+  margin-bottom: 32px;
+}
+
+.tablist_item {
+  list-style: none;
+  white-space: nowrap;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background: #162248;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.react-tabs__tab--selected {
+  background: var(--primary-aqua) !important;
+  color: #000;
+  border-radius: 5px !important;
+}
+
+.mr {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.text-info {
+  margin-bottom: 8px;
+}
+
+.text-aqua {
+  color: var(--primary-aqua);
+}
+
+/* lead */
+
+.lead_title {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.lead_list {
+  margin-bottom: 36px;
+}
+
+.lead_list li {
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.lead_post,
+.lead_reg {
+  margin-bottom: 36px;
+}
+
+.lead_params {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.lead_table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lead_table thead {
+  border-bottom: 1px solid #344375;
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #344375;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.lead_table thead th {
+  border-left: 1px solid #344375;
+  width: 20%;
+}
+
+.lead_table thead th:first-child {
+  border-left: none;
+}
+
+.api_tabs tbody {
+  background: #1e2b56;
+  padding: 5px;
+}
+
+.lead_table th,
+.lead_table tbody td {
+  text-align: start;
+  padding-left: 16px;
+}
+
+.lead_table tbody td {
+  padding: 12px 16px;
+  font-size: 13px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+/*  */
+
+.idp {
+  margin: 28px 0;
+}
+
+.parametr-title {
+  margin-bottom: 20px;
+}
+
+.params {
+  height: 500px;
+}
+
+.param-reg {
+  margin-bottom: 80px;
+}
+
+.p-text {
+  margin-bottom: 8px;
+}
+
+/* new code here from gist for code palace */
+
+.code_box {
+  height: auto;
+}
+
+.code_box_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.gist .blob-code,
+.gist .blob-num {
+  padding: 1px 10px !important;
+  background: #fff !important;
+  border-radius: 0px;
+}
+
+.gist {
+  width: 60%;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.gist * {
+  border-radius: 0px !important;
+}
+
+.gist::-webkit-scrollbar {
+  width: 8px;
+  margin-right: 1rem;
+}
+.gist::-webkit-scrollbar-thumb {
+  background: #32384e;
+  border-radius: 0px;
+}
+.gist::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0px;
+}
+
+.gist .gist-file {
+  margin-bottom: 1em;
+
+  border: 1px solid;
+  border-color: none;
+  border-radius: 0px;
+}
+
+.gist .gist-data {
+  border-radius: 0px;
+}

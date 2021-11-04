@@ -1,0 +1,36 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid var(--gray);
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: var(--awesome-black);
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: var(--gray);
+}
+
+.profile-order {
+  display: inline-block;
+  width: 34px;
+  height: 26px;
+  background-color: #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.profile-order-img {
+  width: 18px;
+}

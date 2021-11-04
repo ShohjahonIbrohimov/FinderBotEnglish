@@ -1,0 +1,112 @@
+.webmaster_table {
+    position: relative;
+    padding: 2rem 0;
+    margin-top: 1rem;
+}
+.webmaster_table .table_wrapper {
+    min-height: 555px;
+}
+.webmaster_table td {
+    padding: 1rem!important;
+    margin-top: 1rem!important;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.webmaster_table tr {
+    margin-top: 10px;
+    color: #4E5C86;
+    outline: 2.5px solid #F2F4FF;
+}
+.webmaster_table thead::after {
+    content: "";
+    position: absolute;
+    align-self: baseline;
+    display: block;
+    height: 1px;
+    width: 99%!important;
+    right: 7px!important;
+    margin: auto;
+    background-color: #85879A;
+    bottom: 18px;
+}
+.webmaster_table .hrDiv {
+    border: 1px solid #85879A;
+    width: 100%;
+}
+.webmaster_table .th {
+    position: relative;
+    padding: 0 10px;
+    text-align: start;
+    color: #6b7080;
+    font-weight: 400!important;
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 12px!important;
+}
+.webmaster_table tr td {
+    padding-left: 12px!important;
+    padding-right: 0!important;
+}
+.webmaster_table th {
+    position: relative;
+    padding: 0!important;
+}
+.webmaster_pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.webmaster_pagination 
+.webmaster_pagination span:first-child {
+    margin-left: 1rem;
+}
+.webm_arrow_left {
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+.webm_arrow_right {
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+.webmaster_pagination .pageBtn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    padding: 0 0.3rem;
+    color: #4E5C86;
+    opacity: 40%;
+}
+.webm_btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.webmaster_pagination .active {
+    color: #4E5C86;
+    border: none;
+    background-color: transparent;
+    padding: 0 0.3rem;
+}
+.webmaster_table thead {
+    position: relative;
+}
+td.red:last-child {
+    color: #B05151!important;
+}
+td.blue:last-child {
+    color: #6A82BF!important;
+}
+td.green:last-child {
+    color: #529A61!important;
+}
+
+.webmaster_table table td:first-child {
+    border-bottom-left-radius: 8px!important;
+    border-top-left-radius: 8px!important;
+}
+.webmaster_table table td:last-child {
+    border-bottom-right-radius: 8px!important;
+    border-top-right-radius: 8px!important;
+}

@@ -1,0 +1,19 @@
+.filterContent {
+    display: none;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 28px 24px;
+    border: 1px solid #4E5C86;
+    border-radius: 10px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.filterSelect {
+    flex: 1 1 30%;
+}
+
+.showFilter {
+    display: flex;
+}

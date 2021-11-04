@@ -1,0 +1,74 @@
+.container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.item:nth-child(2) button {
+    width: 40px;
+    height: 34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: hsla(0, 0%, 94%, 1);
+    border-radius: 3px;
+}
+.item select{
+    padding: 10px;
+    border: none;
+    background-color: hsla(0, 0%, 94%, 1);
+    border-radius: 3px;
+}
+.item:nth-child(4) select{
+    width: 500px;
+}
+.item input{
+    text-align: center;
+    background-color: hsla(0, 0%, 94%, 1);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    width: 100px;
+}
+
+.f-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 100px;
+    row-gap: 30px;
+}
+.f-end textarea{
+    width: 100%;
+    background-color: hsla(0, 0%, 94%, 1);
+    border: none;
+    border-radius: 15px;
+    resize: none;
+    padding: 10px;
+}
+.f-end button{
+    border: none;
+    background-color: hsla(0, 0%, 94%, 1);
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 50px auto;
+}
+.cards .card img{
+    width: 100%;
+}
+.card{
+    width: 250px;
+}
+.card .text{
+    font-size: 12px;
+    margin-top: 15px;
+}

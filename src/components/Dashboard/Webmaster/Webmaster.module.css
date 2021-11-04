@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.button_p {
+    background-color: #4E5C86;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-left: -5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 68px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_p2 {
+    cursor: pointer;
+    /* margin-left: 15%; */
+    border-radius: 5px;
+    background-color: #4E5C86;
+    color: #FFFFFF;
+    /* width: 94px; */
+    border: none;
+}
+
+.button_p3 {
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: black;
+}

@@ -1,0 +1,78 @@
+.first_row {
+    display: flex;
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+}
+.w50 {
+    width: 50%;
+}
+.w30 {
+    width: 30%;
+}
+.row3 {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #85879A;
+}
+.img_arrow_up_down {
+    width: 6px;
+    margin-left: 4px;
+}
+.thirdRow {
+    margin-top: 5rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    font-size: 3rem; */
+}
+.no_sales {
+    font-size: 24px;
+    color: #4E5C86;
+}
+.create_sales {
+    font-size: 12px;
+    color: #6880C8;
+}
+.row1 {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 3rem;
+}
+.subrow1, .subrow2  {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.vertical_line {
+    margin-top: -10px;
+    width: 1px;
+    height: 50px;
+    border: 0.5px solid #B3B7D4;
+}
+.checkboxDiv {
+    margin-top: 2px;
+    margin-right: -50px;
+    margin-left: 10px;
+}
+.input {
+    background: #E5E5E5!important;
+    color: #E5E5E5!important;
+}

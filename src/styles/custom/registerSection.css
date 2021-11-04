@@ -1,0 +1,342 @@
+.registerSection form {
+  padding: 3rem;
+  background-color: #fefefe;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.registerSectionFlex {
+  background-color: var(--awesome-black);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.registerSection .auth_title {
+  color: var(--primary);
+  margin-bottom: 3rem;
+  font-family: "Gilroy-Bold";
+}
+
+.registerSection form input.required_field {
+  border-color: red;
+}
+
+.registerSection .select_wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.registerSectionFlexSub form {
+  position: relative;
+}
+
+.registerSection form select {
+  padding: 0.7rem 0.8rem;
+  color: white;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  outline: none;
+}
+
+.registerSectionFlexSub .close_circle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.registerSectionFlexSub .close_circle svg {
+  fill: #3f4a6c;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.registerSection .select_wrapper .customSelectArrow {
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+
+.registerSection form input:focus {
+  background-color: transparent;
+}
+
+.registerText1 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2f7fec;
+  text-align: center;
+}
+
+.registerText2 {
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+}
+.registerSectionFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.registerSectionFlexSub {
+  width: 35%;
+  min-width: 560px;
+  padding: 55px 50px 35px 50px;
+}
+.registerSection {
+  min-height: 700px;
+}
+
+.formGroupFlex label {
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #96a1a5;
+}
+.registerSocialsMain {
+  background: #c8e1f8;
+  border-radius: 100px;
+  padding: 2px 4px;
+}
+.registerSocials {
+  cursor: pointer;
+  transform: translate(4px, -2px);
+}
+.formGroupFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.registerBtnMainTwo {
+  margin-top: 15px !important;
+  margin-bottom: 0 !important;
+}
+.enterMain {
+  text-align: center;
+}
+.enter {
+  text-decoration: none !important;
+  font-family: "Roboto-Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2f7fec;
+  padding-top: 10px;
+}
+.goToRegister {
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #96a1a5;
+}
+.goToRegister a {
+  text-decoration: none !important;
+  color: #2f7fec;
+}
+
+.checkboxLabel {
+  color: white;
+  font-size: 12px;
+  position: relative;
+}
+
+.registerSection .validationErrorBox {
+  width: 100%;
+  display: block;
+  color: #ff4c4c;
+  text-align: start;
+  font-size: 12px;
+  margin-bottom: 0.4rem;
+  letter-spacing: 1px;
+}
+
+/* Hide the browser's default checkbox */
+.registerSection .customcheckbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color-landing);
+  left: -30px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.registerSection .customcheckbox:checked ~ .checkmark {
+  background-color: var(--primary-color-landing);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  color: #1a2342;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.registerSection .customcheckbox:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.registerSection .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #1a2342;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.registerSection .modalRule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+}
+
+.registerSection .modalContent {
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  height: 90vh;
+  overflow: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 74px 0 #4e4e4e;
+}
+
+.registerSection .modalRule .closeBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.registerSection .modalRule .closeBtn i {
+  color: #fff;
+}
+
+.registerSection .modalRule .secition_title {
+  font-family: "Gilroy-Bold";
+}
+
+.registerSection .afterRegisterMessage {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 74px 0 #4e4e4e;
+  padding: 5rem 2rem;
+}
+
+.registerSection .afterRegisterMessage .social_medias {
+  display: flex;
+  align-items: center;
+}
+
+.registerSection .afterRegisterMessage .social_medias span {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.registerSection .afterRegisterMessage .title {
+  font-size: 48px;
+  font-family: "Gilroy-Bold";
+  margin-bottom: 5rem;
+}
+
+.borz_rules {
+  color: #fff;
+}
+
+.borz_rules .rules_text {
+  line-height: 1.2;
+}
+
+.borz_rules .secition_title {
+  font-family: "Gilroy-Bold";
+}
+
+.borz_rules .close_btn {
+  display: inline-block;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.borz_rules .close_btn svg {
+  fill: #424f7b;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.rules_modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+@media (max-width: 560px) {
+  .registerSection .afterRegisterMessage {
+    width: 90%;
+  }
+
+  .registerSection .afterRegisterMessage .title {
+    font-size: 30px;
+    font-family: "Gilroy-Bold";
+  }
+
+  .registerSection .afterRegisterMessage .paragraph {
+    font-size: 12px;
+  }
+
+  .registerSection .afterRegisterMessage .social_medias object {
+    width: 20px;
+  }
+}

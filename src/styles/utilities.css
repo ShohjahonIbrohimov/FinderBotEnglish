@@ -1,0 +1,103 @@
+/* :root {
+  --primary-color: #26304f;
+  --primary-color-light: #4e5c86;
+  --secondary-color: #030b24;
+  --secondary-color-light: #0e193c;
+  --primary-aqua: #20caeb;
+  --gray-color: #6b7080;
+  --border-radius: 15px;
+  --bg-color: #0e193c;
+  --green-color: #6db561;
+} */
+
+:root {
+  --primary: #5cb85c;
+  --primary-light: #79cf79;
+  --gray: #efefef;
+  --red: #ff6666;
+  --awesome-black: #555555;
+}
+
+@import url("./utilities/buttons.css");
+@import url("./utilities/flexbox.css");
+@import url("./utilities/sizes.css");
+
+.icon_wrap i {
+  font-size: 1.7rem;
+}
+
+.icon_wrap {
+  margin-right: 1.5rem;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.icon_wrap:hover {
+  background-color: #c4c4c4;
+}
+
+.app-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  min-height: 46.4px;
+}
+
+.app-button.width100 {
+  width: 100%;
+  min-height: 46.4px;
+}
+
+.app-button:hover {
+  background-color: var(--primary-light);
+}
+
+.app-button:active {
+  background-color: var(--primary-light);
+  transform: translateY(4px);
+}
+
+input,
+select {
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  outline-color: var(--primary);
+  border-radius: 2px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--primary-light);
+}
+
+.page-header__title {
+  margin-right: 0.5rem;
+}

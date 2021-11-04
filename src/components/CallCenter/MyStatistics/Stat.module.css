@@ -1,0 +1,71 @@
+.statNav_label {
+    margin-bottom: 1rem !important;
+}
+
+.stat_card {
+    background: #EBEDFF;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 24px 36px;
+    border-radius: 15px;
+    flex: 0 1 20%;
+    height: 118px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: all .3s;
+}
+
+@media screen and (max-width: 1256px) {
+    .stat_card {
+        flex: 1 1 20%;
+    }
+}
+
+.stat_card:hover {
+    box-shadow: 0px 0px 5px 2px rgba(10, 10, 10, 0.15);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(10, 10, 10, 0.15);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(10, 10, 10, 0.15);
+}
+
+.stat_card_icon {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin-right: 18px;
+}
+
+.stat_card_icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #4E5C86;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.stat_card_icon img {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.stat_card_info h5 {
+    color: #26304F;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 4px;
+
+}
+
+.stat_card_info span {
+    color: #4E5C86;
+    font-size: 18px;
+    font-weight: 500;
+}

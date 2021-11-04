@@ -1,0 +1,78 @@
+.header_wrap {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #3e465e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_right_item:not(:last-child) {
+  padding: 0 2.5rem;
+  border-right: 1px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header_right_item:last-child {
+  padding-left: 2.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile_img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin-right: 1rem;
+}
+
+.user_name {
+  font-size: 18px;
+}
+
+.user_id {
+  color: var(--primary-aqua);
+  font-size: 16px;
+}
+
+.header_dropdown_wrap {
+  position: relative;
+}
+
+.header_dropdown {
+  border-radius: 5px;
+  width: 250px;
+  background-color: var(--primary-color-light);
+  position: absolute;
+  right: 0;
+  top: 90%;
+  visibility: hidden;
+}
+
+.dropdown_visible {
+  visibility: visible;
+}
+
+.header_dropdown ul {
+  list-style-type: none;
+  padding: 0.5rem 0;
+}
+
+.header_dropdown ul li {
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.header_dropdown ul li svg {
+  fill: #fff;
+  margin-right: 0.7rem;
+}
+
+.header_dropdown ul li:hover {
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,15 @@
+.stat_container {
+  padding: 3rem 0;
+  border-bottom: 1px solid #4e5c86;
+}
+
+.title {
+  font-size: 18px;
+  color: #4e5c86;
+  margin-bottom: 0.6rem;
+}
+
+.date {
+  color: #4e5c86;
+  font-size: 13px;
+}

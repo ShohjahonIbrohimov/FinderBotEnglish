@@ -1,0 +1,73 @@
+table thead tr th .th {
+  font-size: 14px !important;
+}
+
+.domains_table {
+  padding: 2rem 0;
+  /* background-color: var(--primary-color); */
+  border-radius: var(--border-radius);
+}
+
+.domains_table thead {
+  position: relative;
+}
+
+.finance-table thead::after {
+  content: "";
+  position: absolute;
+  align-self: baseline;
+  display: block;
+  height: 0.5px;
+  width: 95%;
+  right: 25px;
+  margin: auto;
+  background-color: #344375;
+  bottom: 18px;
+}
+
+.domains_table table {
+  border-collapse: collapse !important;
+}
+
+.finance-table .th {
+  text-align: start;
+  color: #6b7080;
+  font-size: 14px !important;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 2rem;
+
+}
+
+.finance-table th:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  align-self: baseline;
+  display: block;
+  height: 25px;
+  width: 1px;
+  background-color: transparent;
+  right: 0;
+  top: 0;
+}
+
+.domains_table th {
+  position: relative;
+  padding: 0 10px;
+}
+
+.domains_table th:first-child {
+  padding-left: 5rem;
+}
+
+.domains_table .td:first-child {
+  /* padding-left: 5rem; */
+}
+
+.domains_table td {
+  padding: 10px;
+}
+
+.domains_table .react-tabele-pagination {
+  padding: 0 80px;
+}

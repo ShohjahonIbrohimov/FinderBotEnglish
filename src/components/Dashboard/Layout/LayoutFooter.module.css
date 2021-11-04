@@ -1,0 +1,31 @@
+.footer_wrap {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: 4rem 0;
+}
+
+.logo {
+  padding-right: 3rem;
+  border-right: 1px solid #fff;
+}
+
+.content_two {
+  width: 25%;
+  min-width: 300px;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.socials {
+  width: 60%;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials img {
+  width: 18px;
+}

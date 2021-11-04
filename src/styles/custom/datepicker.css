@@ -1,0 +1,129 @@
+/* calendar custom class */
+
+.Calendar {
+  background-color: var(--primary-color);
+  box-shadow: none !important;
+}
+
+.Calendar__yearSelectorWrapper::after {
+  background: none;
+}
+
+.Calendar__yearSelectorWrapper::before {
+  background: var(--bg-color);
+}
+
+.calendar-bg {
+  background: var(--bg-color);
+  color: #fff !important;
+  border: 1px solid #4e5c86;
+}
+
+.calendarToday {
+  color: #fff;
+}
+
+.calendar-bg {
+  color: white;
+}
+
+.Calendar__day,
+.Calendar> :not(.Calendar__footer) button {
+  color: white;
+}
+
+.Calendar__yearSelectorWrapper {
+  box-shadow: none !important;
+}
+
+.Calendar> :not(.Calendar__footer) button:hover {
+  background: var(--primary-aqua);
+  color: #000000;
+}
+
+.Calendar__monthSelectorItemText:hover {
+  background: var(--primary-aqua);
+  color: #000000 !important;
+}
+
+.Calendar__monthYear.-shown>*:hover,
+.Calendar:not(.-noFocusOutline) .Calendar__monthYear.-shown>*:focus,
+.Calendar__monthYear>*.-activeBackground {
+  background: transparent;
+}
+
+.custom-input {
+  border: 0.5px solid #26304f;
+  padding: 0.5rem 1rem;
+  color: #26304f;
+  font-size: 14px;
+}
+
+.picker-input {
+  border: 1px solid #fff;
+  width: 210px;
+  color: #fff;
+  padding-left: 40px;
+  outline: none;
+  font-size: 14px;
+}
+
+.custom-input::placeholder {
+  color: #26304f !important;
+}
+
+.Calendar__monthArrow {
+  filter: invert(100%) sepia(5%) saturate(1386%) hue-rotate(123deg) brightness(116%) contrast(100%);
+}
+
+.Calendar__monthSelector,
+.Calendar__yearSelector {
+  background: var(--bg-color) !important;
+}
+
+.Calendar__monthSelectorItemText {
+  color: #fff !important;
+}
+
+.range-picker-input-wrapper {
+  position: relative;
+}
+
+.range-picker-input-wrapper svg {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+.range-picker-input {
+  border: 1px solid #4e5c86;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #4e5c86;
+  padding: 0.65rem 1rem;
+  padding-left: 2.5rem;
+  font-size: 14px;
+}
+
+.DatePicker {
+  width: 100%;
+}
+
+
+
+.datepicker {
+  outline: none;
+  border: 1px solid #333;
+  width: 100%;
+  color: #333 !important;
+
+}
+
+.datepicker::placeholder {
+  color: #333;
+}
+
+.datepicker:focus {
+  outline: none;
+  border: 1px solid #fff;
+}

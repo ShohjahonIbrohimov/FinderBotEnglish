@@ -1,0 +1,16 @@
+.payment-method-input-wrap {
+    width: 50%;
+    margin: auto;
+}
+
+.payment-method-input-wrap  div {
+    margin-bottom: 1.5rem;
+}
+
+.payment-method-input-item {
+    display: flex;
+}
+
+.payment-method-input-wrap input {
+    margin: 0;
+}

@@ -1,0 +1,18 @@
+.prices {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.prices_item h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.prices_item span {
+    color: #6880C8;
+    font-size: 16px;
+    font-weight: 500;
+}

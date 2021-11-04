@@ -1,0 +1,105 @@
+.domains_table {
+  position: relative;
+  padding: 2rem 0;
+  /* background-color: var(--primary-color); */
+  border-radius: var(--border-radius);
+}
+
+.domains_table .table_wrapper {
+  min-height: 555px;
+}
+
+.domains_table .cycle_btn {
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-size: 10px;
+}
+
+.domains_table .cycle_btn .cycle_content {
+  position: absolute;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem;
+  opacity: 0;
+  left: -200px;
+}
+
+.domains_table .cycle_btn:hover .cycle_content {
+  opacity: 1;
+}
+
+.domains_table thead {
+  position: relative;
+}
+
+.domains_table thead::after {
+  content: "";
+  position: absolute;
+  align-self: baseline;
+  display: block;
+  height: 0.5px;
+  width: 95%;
+  right: 25px;
+  margin: auto;
+  background-color: #344375;
+  bottom: 18px;
+}
+
+.domains_table table {
+  border-collapse: collapse !important;
+}
+
+.domains_table .th {
+  text-align: start;
+  color: #fff;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.domains_table th:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  align-self: baseline;
+  display: block;
+  height: 25px;
+  width: 1px;
+  background-color: #344375;
+  right: 0;
+  top: 0;
+}
+
+.domains_table th {
+  position: relative;
+  padding: 0 10px;
+}
+
+.domains_table th:first-child {
+  padding-left: 5rem;
+}
+
+.domains_table .td:first-child {
+  padding-left: 5rem;
+}
+
+.domains_table td {
+  padding: 10px;
+}
+
+.domains_table .react-tabele-pagination {
+  padding: 0 80px;
+}
+
+.table_wrapper .no_table_data {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color-light);
+}

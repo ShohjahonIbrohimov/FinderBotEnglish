@@ -1,0 +1,28 @@
+.stat_table .td:first-child {
+  width: 10%;
+}
+
+.stat_table thead::after {
+  left: 0;
+}
+
+.css-1wa3eu0-placeholder {
+  font-size: 14px !important;
+  color: white !important;
+}
+
+.stat_table .td:first-child {
+  padding-left: 10px !important;
+}
+
+.Statistics_div2__lvB2W div .css-1wa3eu0-placeholder {
+  color: white !important;
+}
+.fs14 {
+  font-size: 14px!important;
+  padding: 0.57rem!important;
+}
+.div2 .range-picker-input {
+  height: 40px;
+}
+/* #20CAEB */

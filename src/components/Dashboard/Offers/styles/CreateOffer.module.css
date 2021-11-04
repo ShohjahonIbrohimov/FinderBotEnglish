@@ -1,0 +1,79 @@
+.benefits_wrap {
+  width: 65%;
+  margin-bottom: 1rem;
+}
+
+.delete_input_button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 0.6rem;
+  background-color: rgb(255, 93, 65);
+  opacity: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+}
+
+.delete_input_button svg {
+  fill: #fff;
+}
+
+.delete_input_button_textarea {
+  border-radius: 5px;
+  top: 0;
+  right: -22px;
+  bottom: unset;
+  padding: 0.3rem 0.5rem;
+}
+
+.delete_input_wrap {
+  position: relative;
+  margin-right: 2.5rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.delete_input_wrap:hover .delete_input_button {
+  opacity: 1;
+}
+
+.add_btn {
+  width: 150px;
+  padding: 0.6rem 0.8rem;
+  font-size: 12px;
+  border: 1px solid #b3b7d5;
+  border-radius: 5px;
+  background: #e2e4f5;
+  color: #85889a;
+  cursor: pointer;
+}
+
+.add_btn:active {
+  transform: translateY(4px);
+}
+
+.add_btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.add_btn:hover svg {
+  fill: var(--primary-color);
+}
+
+.add_btn svg {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  fill: #85889a;
+}
+
+.hide_on_country_select {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}

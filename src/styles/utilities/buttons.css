@@ -1,0 +1,179 @@
+.button {
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.button span {
+  white-space: nowrap;
+}
+
+.btn-hover:hover {
+  background: #b3b7d4 !important;
+  border: "1px solid #B3B7D4" !important;
+}
+
+.button-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.button-icon img {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-custom {
+  color: #000000;
+  background: var(--primary-aqua);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 8px 17px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all;
+  min-width: 135px;
+  position: relative;
+}
+
+.btn-custom:active,
+.button:active {
+  transform: scale(0.9);
+}
+
+.btn-custom span {
+  z-index: 10;
+  position: relative;
+}
+
+.btn-click {
+  position: relative;
+  transition: 0.3s all;
+}
+
+.btn-click:active {
+  transform: scale(0.9);
+}
+
+.btn-custom svg {
+  fill: #000000;
+  width: 11px;
+  height: 11px;
+}
+
+.btn-custom.width-auto {
+  min-width: auto;
+}
+
+.btn-aqua-outlined {
+  border: 1px solid var(--primary-aqua);
+  border-radius: 9px;
+  background-color: transparent;
+  padding: 0.2rem 0.5rem;
+  color: var(--primary-aqua);
+  cursor: pointer;
+}
+
+.btn-custom.outlined {
+  background-color: transparent;
+  border: 1px solid #1f2947;
+  color: #1f2947;
+  min-width: unset;
+}
+
+.btn-lg {
+  padding: 12px 34px;
+  font-size: 12px;
+}
+
+.btn-disabled {
+  pointer-events: none;
+  background: var(--gray-color);
+}
+
+/* PRIMARY BUTTON */
+.btn-primary {
+  background-color: #1f2947;
+  border: 0.6px solid #414c70;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+}
+
+/* BUTTON WITH ICON */
+.button-icon-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btn_mr-2 {
+  margin-right: 2rem;
+}
+
+/* -------------- NEW ------------------ */
+
+/* Main Button */
+.btn-main {
+  padding: 0.6rem 0.8rem;
+  min-width: 150px;
+  font-size: 12px;
+  border: 1px solid #b3b7d5;
+  border-radius: 5px;
+  background: #e2e4f5;
+  color: #85889a;
+  cursor: pointer;
+  white-space: nowrap;
+  height: 42px;
+}
+
+.btn-main:active {
+  transform: translateY(4px);
+}
+
+.btn-main:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-main svg {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  fill: #85889a;
+}
+
+/* EXTAND MAIN BUTTON */
+
+/* Dark */
+.btn-main--dark {
+  background: var(--primary-color-light);
+  color: #fff;
+  border-color: var(--primary-color-light);
+}
+
+.btn-main--dark:hover {
+  color: rgb(236, 236, 236);
+}
+
+/* Green */
+.btn-main--green {
+  background: var(--green-color);
+  border-color: var(--green-color);
+  color: #fff;
+}
+
+.btn-main--green:hover {
+  color: rgb(236, 236, 236);
+}
+
+/* White */
+.btn-main--white {
+  background: #fff;
+}

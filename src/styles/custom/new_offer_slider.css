@@ -1,0 +1,21 @@
+.new_offers_slider .slick-prev::before {
+  content: url("../../assets/dashboard-main/arrow_left_big.svg") !important;
+}
+
+.new_offers_slider .slick-next::before {
+  content: url("../../assets/dashboard-main/arrow_right_big.svg") !important;
+}
+
+.new_offers_slider .slick-prev {
+  position: absolute;
+  left: 46%;
+  bottom: -40%;
+  top: unset;
+}
+
+.new_offers_slider .slick-next {
+  position: absolute;
+  right: 47%;
+  bottom: -40%;
+  top: unset;
+}

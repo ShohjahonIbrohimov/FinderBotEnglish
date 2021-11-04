@@ -1,0 +1,49 @@
+.__react_component_tooltip.show {
+    opacity: 1 !important;
+}
+
+.tooltip-block {
+    position: relative;
+}
+
+#show-tip {
+    display: block !important;
+}
+
+.tooltip-icon {
+    pointer-events: all;
+}
+
+.custom-tooltip {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -410px;
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.tooltip-links {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 8px;
+    z-index: 1000;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.tooltip-links .tooltip-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #162248;
+    z-index: 10;
+    font-size: 14px;
+}

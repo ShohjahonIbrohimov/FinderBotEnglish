@@ -1,0 +1,157 @@
+.icon_wrap i {
+  font-size: 1.7rem;
+}
+
+.icon_wrap {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon_wrap .image {
+  width: 300px;
+  /* height: 300px; */
+  position: fixed;
+  /* right: -50%; */
+  display: none;
+}
+
+.icon_wrap:hover .image {
+  display: block;
+}
+
+.icon_wrap:hover {
+  background-color: #c4c4c4;
+}
+
+.app-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  min-height: 46.4px;
+}
+
+.app-button.width100 {
+  width: 100%;
+}
+
+.app-button:hover {
+  background-color: var(--primary-light);
+}
+
+.app-button:active {
+  background-color: var(--primary-light);
+  transform: translateY(4px);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  outline-color: var(--primary);
+  border-radius: 2px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+input[type="date"],
+select {
+  height: 39.4px;
+}
+
+input[type="submit"] {
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--primary-light);
+}
+
+.page-header__title {
+  margin-right: 0.5rem;
+}
+
+td {
+  min-width: 25%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.three_dots {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.three_dots .content {
+  width: 500px;
+  /* height: 300px; */
+  word-wrap: break-word;
+  position: fixed;
+  display: none;
+  right: 20%;
+  background-color: #ffffff;
+  white-space: pre-wrap;
+  padding: 1rem;
+  border: 1px solid var(--primary);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.three_dots:hover .content {
+  display: block;
+}
+
+.form-inputs-wrap {
+  background: #efefef;
+  padding: 1rem;
+  height: 252px;
+  min-height: 252px;
+  margin-bottom: 0.5rem;
+}
+
+.form {
+  margin-bottom: 2rem;
+}

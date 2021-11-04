@@ -1,0 +1,141 @@
+/* FORM */
+
+label {
+  margin-bottom: 1.5rem;
+  display: block;
+  color: #26304f;
+}
+
+.label_title {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.edit-traffic .css-2b097c-container {
+  width: 250px;
+}
+
+.edit-heading {
+  padding: 18px 24px;
+  background: #162248;
+  border-radius: 8px;
+  margin-top: 64px;
+}
+
+.edit-heading-title {
+  margin-bottom: 24px;
+}
+
+.edit-name,
+.edit-traffic {
+  margin-bottom: 32px;
+}
+
+.edit-heading label {
+  margin-bottom: 0;
+  width: 200px;
+}
+
+.edit-heading-input {
+  background: #1e2b56;
+  border-radius: 2px;
+  border: none;
+  width: 250px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* .tools-checkmarks .multiple_select_box {} */
+
+.edit-tools {
+  margin-bottom: 82px;
+}
+
+.settings {
+  margin-bottom: 140px;
+}
+
+.settings .settings-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 72px;
+}
+
+.tools-checkmarks {
+  margin-top: 32px;
+}
+
+.tools-checkmarks .checkmark {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools-checkmarks .multi-select .multiple_select_box {
+  height: 90px;
+  width: 250px !important;
+}
+
+.tools-checkmarks
+  .radio_wrapper
+  input:checked
+  ~ .radio_label
+  .checkmark-icon
+  img {
+  filter: brightness(0.1) invert(1);
+}
+
+.setting-checkmarks .multi-select .multiple_select_box {
+  height: 70px;
+  width: 245px !important;
+}
+
+.setting-checkmarks
+  .radio_wrapper
+  input:checked
+  ~ .radio_label
+  .checkmark-icon
+  img {
+  filter: brightness(0.1) invert(1);
+}
+
+.setting-checkmarks .checkmark {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.setting-checkmarks span,
+.tools-checkmarks span {
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.tools-checkmarks .checkmark .checkmark-icon,
+.setting-checkmarks .checkmark .checkmark-icon {
+  margin-right: 10px;
+}
+
+.hr-line {
+  background-color: #414c70;
+  border: none;
+  height: 1px;
+  margin: 60px 0;
+}
+
+.edit-title h3 {
+  width: 200px;
+}
+
+.submit-box {
+  margin-bottom: 70px;
+}
+
+.btn-next {
+  color: #fff;
+  background: #162248;
+  border-radius: 4px;
+}

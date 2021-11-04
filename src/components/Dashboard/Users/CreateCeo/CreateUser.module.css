@@ -1,0 +1,10 @@
+.hide_icon {
+    margin-top: 8px;
+}
+
+
+.datePicker[type="date"]::-webkit-inner-spin-button,
+.datePicker[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}

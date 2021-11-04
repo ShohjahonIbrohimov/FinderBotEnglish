@@ -1,0 +1,41 @@
+.stat_table {
+  background-color: transparent;
+}
+
+.stat_table th {
+  padding: 20px 10px;
+}
+
+.stat_table .th {
+  text-align: center;
+  margin: 0;
+}
+
+.stat_table th:first-child {
+  padding-left: 0;
+}
+
+.stat_table .td:first-child {
+  padding-left: 0;
+  text-align: center;
+}
+
+.stat_table thead::after {
+  content: "";
+  position: absolute;
+  align-self: baseline;
+  display: block;
+  height: 0.5px;
+  width: 100%;
+  margin: auto;
+  background-color: #3e465d;
+  bottom: 61px;
+}
+
+.stat_table th:not(:last-child) {
+  border-right: 1px solid #3e465d;
+}
+
+.stat_table th:not(:last-child)::after {
+  content: none;
+}
